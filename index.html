@@ -15,14 +15,29 @@
 </head>
 <body class="max-w-full text-white antialiased  ">
 
-    <nav class="sticky top-0 z-50 backdrop-blur-md  flex justify-between items-center w-full max-w-full mx-auto py-6 px-6 border-b border-white/5 ">
-        <div class="text-4xl tracking-wider font-black text-black">Portfolio</div>
-        <div class="flex space-x-6 text-md font-bold text-black  ">
-            <a href="#" class=" hover:text-cyan-400">Home</a>
+    <nav class="sticky top-0 z-50 backdrop-blur-md flex justify-between items-center w-full max-w-full mx-auto py-6 px-6 border-b border-white/5">
+        <div class="text-4xl tracking-wider font-bold text-pink-700">Aleeya Sofea</div>
+        
+        <div class="hidden md:flex space-x-6 text-md font-bold text-black">
+            <a href="#" class="hover:text-cyan-400">Home</a>
             <a href="#about" class="hover:text-cyan-400">About</a>
             <a href="#skills" class="hover:text-cyan-400">Skills</a>
             <a href="#services" class="hover:text-cyan-400">Services</a>
             <a href="#projects" class="hover:text-cyan-400">Projects</a>
+        </div>
+
+        <button id="menu-btn" class="block md:hidden text-black focus:outline-none z-50">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-md border-b border-gray-100 flex-col items-center space-y-4 py-6 text-md font-bold text-black shadow-lg shadow-gray-200/50">
+            <a href="#" class="hover:text-cyan-400 mobile-link">Home</a>
+            <a href="#about" class="hover:text-cyan-400 mobile-link">About</a>
+            <a href="#skills" class="hover:text-cyan-400 mobile-link">Skills</a>
+            <a href="#services" class="hover:text-cyan-400 mobile-link">Services</a>
+            <a href="#projects" class="hover:text-cyan-400 mobile-link">Projects</a>
         </div>
     </nav>
 
@@ -30,8 +45,8 @@
         
         <div class="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto w-full my-auto">
             <div class="flex flex-col space-y-4 text-center md:text-left max-w-xl">
-                <p class="text-4xl font-black tracking-wide" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Hello, Its Me</p>
-                <h1 class="text-8xl md:text-6xl font-bold tracking-tight" data-aos="fade-right" data-aos-duration="2500">Aleeya Sofea</h1>
+                <p class="mt-2 text-4xl font-black tracking-wide" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Hello, Its Me</p>
+                <h1 class="mb-6 text-8xl md:text-6xl font-bold tracking-tight" data-aos="fade-right" data-aos-duration="2500">Aleeya Sofea</h1>
                 <div class="flex justify-center md:justify-start space-x-4 pt-2">
                     <a href="#" class="w-16 h-16 rounded-full border border-white flex items-center justify-center text-4xl hover:bg-white hover:text-pink-900 transition" data-aos="fade-up" data-aos-duration="3000"><i class="fab fa-instagram"></i></a>
                     <a href="#" class="w-16 h-16 rounded-full border border-white flex items-center justify-center text-4xl hover:bg-white hover:text-pink-900 transition" data-aos="fade-up" data-aos-duration="3000"><i class="fab fa-whatsapp"></i></a>
@@ -39,12 +54,12 @@
                     <a href="#" class="w-16 h-16 rounded-full border border-white flex items-center justify-center text-4xl hover:bg-white hover:text-pink-900 transition" data-aos="fade-up" data-aos-duration="3000"><i class="fab fa-linkedin-in"></i></a>
                 </div>
 
-                <div class="pt-4">
-                    <a href="#about" class="inline-block bg-cyan-400 text-blue-950 font-bold px-6 py-2.5 rounded-full shadow-lg shadow-cyan-400/50 hover:bg-cyan-300 transition text-xl">More About Me</a>
+                <div class="pt-2 pb-6 mb-10">
+                    <a href="#about" class="inline-block bg-cyan-400 text-blue-950 font-bold px-4 py-2.5 rounded-full shadow-lg shadow-cyan-400/50 hover:bg-cyan-300 transition text-xl">More About Me</a>
                 </div>
             </div>
 
-            <div class="relative z-10">
+            <div class="relative z-10 mt-5">
                 <div class="w-80 h-80 md:w-[450px] md:h-[450px] rounded-full overflow-hidden border-4 border-cyan-400 shadow-[0_0_30px_rgba(34,211,238,0.3)]">
                     <img src="./images/1.jpg" alt="Aleeya Sofea" class="w-full h-full object-cover">
                 </div>
@@ -66,7 +81,7 @@
                 <p class="text-gray-600 text-sm leading-relaxed" data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
-                    My name is Aleeya Sofea binti Muhammad Ridzuan. I am currently a Semester 5 student pursuing a Bachelor's Degree in History Education at Universiti Pendidikan Sultan Idris (UPSI). Previously, I completed a Foundation in Arts programme, which strongly fueled my interest in creative, critical thinking, and academic endeavors.
+                    My name is Aleeya Sofea binti Muhammad Ali. I am currently a Semester 2 student pursuing a Bachelor's Degree in History Education at Universiti Pendidikan Sultan Idris (UPSI). Previously, I completed a Foundation in Law programme, which strengthened my communication, critical thinking, and research abilities.
                 </p>
                 <p class="text-gray-600 text-sm leading-relaxed"data-aos="fade-left"
      data-aos-offset="300"
@@ -90,7 +105,7 @@
                   <h4 class="font-bold text-2xl">Technical Skills</h4>
                     <div>
                         <div class="flex justify-between mb-1 text-sm font-semibold">
-                            <span>Microsoft Word</span>
+                            <span>Microsoft Word</span>  <span class="">90%</span>
                         </div>
                         <div class="w-full bg-white/20 rounded-full h-3">
                             <div class="bg-gradient-to-r from-cyan-500 to-cyan-300 h-3 rounded-full" style="width: 95%"></div>
@@ -98,7 +113,7 @@
                     </div>
                     <div>
                         <div class="flex justify-between mb-1 text-sm font-semibold">
-                            <span>Microsoft Powerpoint</span>
+                            <span>Microsoft Powerpoint</span>  <span class="">95%</span>
                         </div>
                         <div class="w-full bg-white/20 rounded-full h-3">
                             <div class="bg-gradient-to-r from-cyan-500 to-cyan-300 h-3 rounded-full" style="width: 90%"></div>
@@ -106,7 +121,15 @@
                     </div>
                     <div>
                         <div class="flex justify-between mb-1 text-sm font-semibold">
-                            <span>Google Docs</span>
+                            <span>Canva Design</span>  <span class="">85%</span>
+                        </div>
+                        <div class="w-full bg-white/20 rounded-full h-3">
+                            <div class="bg-gradient-to-r from-cyan-500 to-cyan-300 h-3 rounded-full" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-1 text-sm font-semibold">
+                            <span>Google Docs</span>  <span class="">90%</span>
                         </div>
                         <div class="w-full bg-white/20 rounded-full h-3">
                             <div class="bg-gradient-to-r from-cyan-500 to-cyan-300 h-3 rounded-full" style="width: 92%"></div>
@@ -114,7 +137,7 @@
                     </div>
                     <div>
                         <div class="flex justify-between mb-1 text-sm font-semibold">
-                            <span>Research & Academic Writing</span>
+                            <span class="">Research & Academic Writing</span> <span class="">80%</span>
                         </div>
                         <div class="w-full bg-white/20 rounded-full h-3">
                             <div class="bg-gradient-to-r from-cyan-500 to-cyan-300 h-3 rounded-full" style="width: 88%"></div>
@@ -122,7 +145,7 @@
                     </div>
                     <div>
                         <div class="flex justify-between mb-1 text-sm font-semibold">
-                            <span>Basic Video Editing</span>
+                            <span>Basic Video Editing</span> <span class="">70%</span>
                         </div>
                         <div class="w-full bg-white/20 rounded-full h-3">
                             <div class="bg-gradient-to-r from-cyan-500 to-cyan-300 h-3 rounded-full" style="width: 80%"></div>
@@ -134,37 +157,37 @@
                   <h4 class="font-bold text-2xl col-span-3 items-center">Profesional Skills</h4>
                     <div class="flex flex-col items-center">
                         <div class="relative w-20 h-20 flex items-center justify-center rounded-full border-4 border-cyan-400">
-                            <span class="text-xs font-bold">90%</span>
+                            <span class="text-xs font-bold">85%</span>
                         </div>
                         <span class="text-xs mt-2 text-gray-500">Communication Skills</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <div class="relative w-20 h-20 flex items-center justify-center rounded-full border-4 border-cyan-400">
-                            <span class="text-xs font-bold">85%</span>
+                            <span class="text-xs font-bold">80%</span>
                         </div>
                         <span class="text-xs mt-2 text-gray-500">Creativity</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <div class="relative w-20 h-20 flex items-center justify-center rounded-full border-4 border-cyan-400">
-                            <span class="text-xs font-bold">88%</span>
+                            <span class="text-xs font-bold">80%</span>
                         </div>
                         <span class="text-xs mt-2 text-gray-500">Problem Solving</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <div class="relative w-20 h-20 flex items-center justify-center rounded-full border-4 border-cyan-400">
-                            <span class="text-xs font-bold">92%</span>
+                            <span class="text-xs font-bold">90%</span>
                         </div>
                         <span class="text-xs mt-2 text-gray-500">Teamwork</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <div class="relative w-20 h-20 flex items-center justify-center rounded-full border-4 border-cyan-400">
-                            <span class="text-xs font-bold">80%</span>
+                            <span class="text-xs font-bold">75%</span>
                         </div>
                         <span class="text-xs mt-2 text-gray-500">Time Management</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <div class="relative w-20 h-20 flex items-center justify-center rounded-full border-4 border-cyan-400">
-                            <span class="text-xs font-bold">85%</span>
+                            <span class="text-xs font-bold">70%</span>
                         </div>
                         <span class="text-xs mt-2 text-gray-500">Leadership</span>
                     </div>
@@ -228,8 +251,9 @@
             <h2 class="text-4xl font-bold text-center mb-16 text-gray-500">Latest Project</h2>
 
             <div class="flex flex-col md:flex-row items-center gap-8">
-                    <div class="w-full md:w-1/2 h-64 bg-black rounded-lg shadow-md overflow-hidden border border-white/10" data-aos="fade-right">
-                        <img src="./images/3.jpg" alt="Aleeya Sofea" class="w-full h-full object-cover">
+                    <div class="w-full md:w-1/2 rounded-lg shadow-md overflow-hidden border border-gray-200" data-aos="fade-right">
+  
+                        <img src="./images/3.jpg" alt="Aleeya Sofea" class="w-full h-auto object-cover">
                     </div>
                     
                     <div class="w-full md:w-1/2 space-y-2 text-left">
@@ -248,4 +272,23 @@
 <script>
   AOS.init();
 </script>
+<script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        // Fungsi buka/tutup menu bila butang hamburger diklik
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+        });
+
+        // Auto tutup balik menu mobile bila user klik mana-mana link (Home, About, dll)
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('flex');
+            });
+        });
+    </script>
 </html>
